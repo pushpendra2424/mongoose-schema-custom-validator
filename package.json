@@ -1,0 +1,23 @@
+{
+  "name": "mongoose-schema-custom-validator",
+  "version": "1.0.0",
+  "description": "A middleware for validating request payloads against Mongoose schemas.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushpendra2424/mongoose-schema-custom-validator.git"
+  },
+  "author": "Pushpendra Kumar",
+  "keywords": ["mongoose", "validation", "middleware"],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pushpendra2424/mongoose-schema-custom-validator/issues"
+  },
+  "homepage": "https://github.com/pushpendra2424/mongoose-schema-custom-validator#readme",
+  "dependencies": {
+    "mongoose": "^8.7.0"
+  }
+}
