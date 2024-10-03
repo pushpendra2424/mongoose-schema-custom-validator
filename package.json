@@ -1,6 +1,6 @@
 {
   "name": "mongoose-schema-custom-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A middleware for validating request payloads against Mongoose schemas.",
   "main": "app.js",
   "scripts": {
