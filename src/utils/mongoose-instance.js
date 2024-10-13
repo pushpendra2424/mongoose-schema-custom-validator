@@ -3,10 +3,9 @@
  * @param {any} schema - The schema to check.
  * @returns {boolean} - Returns true if it's a valid Mongoose schema, false otherwise.
  */
-const mongoose = require ('mongoose');
-
 function isValidMongooseSchema(schema) {
-    return schema instanceof mongoose.Schema;
+  // const gooseObject = mongooseSchema && mongooseSchema.obj && typeof mongooseSchema.obj === 'object';
+  return schema && schema.constructor && schema.constructor.name === 'Schema';
 }
 
-module.exports = isValidMongooseSchema;
+module.exports = { isValidMongooseSchema };

@@ -1,3 +1,3 @@
-const validatePayload = require('./src/validatePayload');
+const validatePayload = require('./src/payload-validators');
 
 module.exports = validatePayload;
